@@ -1,12 +1,6 @@
 ''' Change case in a string '''
 
 s=input('Enter a string: ')
-
-'''
-r=s.swapcase()
-print('Resultant string: ',r)
-'''
-
 r=''
 for i in range(len(s)):
     if (s[i]>='a' and s[i]<='z'):
